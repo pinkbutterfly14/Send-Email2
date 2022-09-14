@@ -39,4 +39,4 @@ $recipient  = "pink.butterfly.14@hotmail.com";
 $subject    = "Comanda noua pentru K";
 mail($recipient, $subject, $body, $headers); /* building the mail() function */
 header("https://e-commerce203.blogspot.com/p/success.html"); /* declaring the page to redirect if the mail is sent successfully */
-?>
+
